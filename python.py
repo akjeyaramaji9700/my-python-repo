@@ -1,2 +1,2 @@
 a=input('enter your data')
-print(a);
+print("Your entered data is : ",a);
