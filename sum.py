@@ -1,4 +1,6 @@
 sum = 0
-for i in range(365):
-     sum=(sum)+i*2
-print("The sum of b/w 1 to 365 is ",sum)
+a = input('Enter starting digit: ')
+b = input('Enter ending digit: ')
+for i in range(a,b):
+     sum=(sum)+i
+print("The sum of b/w ", a," to ", b ,"is: ",sum)
